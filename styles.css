@@ -1,0 +1,62 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 20px;
+    background: linear-gradient(to right, #ff99cc, #99ccff);
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: gradientBG 5s ease infinite;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+@keyframes gradientBG {
+    0% {
+        background: rgba(255, 255, 255, 0.9);
+    }
+    16.67% {
+        background: rgba(255, 182, 193, 0.9);
+    }
+    33.33% {
+        background: rgba(182, 255, 193, 0.9);
+    }
+    50% {
+        background: rgba(193, 255, 255, 0.9);
+    }
+    66.67% {
+        background: rgba(193, 182, 255, 0.9);
+    }
+    83.33% {
+        background: rgba(255, 193, 182, 0.9);
+    }
+    100% {
+        background: rgba(255, 255, 255, 0.9);
+    }
+}
